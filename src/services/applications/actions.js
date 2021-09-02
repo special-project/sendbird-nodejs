@@ -7,7 +7,7 @@ const actions = {
     method: GET,
     endpoint: "/settings_by_channel_custom_type/{custom_type}/operators",
   },
-  listOperators: {
+  banUsers: {
     method: POST,
     endpoint: "/settings_by_channel_custom_type/{custom_type}/ban",
   },
