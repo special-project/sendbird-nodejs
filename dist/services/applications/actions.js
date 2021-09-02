@@ -1,0 +1,15 @@
+"use strict";
+
+var _require = require("../../constants/requestTypes"),
+    GET = _require.GET,
+    POST = _require.POST;
+
+var actions = {
+  listOperators: {
+    method: GET,
+    endpoint: "/settings_by_channel_custom_type/{custom_type}/operators"
+  }
+};
+
+module.exports = actions;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3NyYy9zZXJ2aWNlcy9hcHBsaWNhdGlvbnMvYWN0aW9ucy5qcyJdLCJuYW1lcyI6WyJyZXF1aXJlIiwiR0VUIiwiUE9TVCIsImFjdGlvbnMiLCJsaXN0T3BlcmF0b3JzIiwibWV0aG9kIiwiZW5kcG9pbnQiLCJtb2R1bGUiLCJleHBvcnRzIl0sIm1hcHBpbmdzIjoiQUFBQTs7ZUFFc0JBLFFBQVEsOEJBQVIsQztJQUFkQyxHLFlBQUFBLEc7SUFBS0MsSSxZQUFBQSxJOztBQUViLElBQU1DLFVBQVU7QUFDZEMsaUJBQWU7QUFDYkMsWUFBUUosR0FESztBQUViSyxjQUFVO0FBRkc7QUFERCxDQUFoQjs7QUFPQUMsT0FBT0MsT0FBUCxHQUFpQkwsT0FBakIiLCJmaWxlIjoiYWN0aW9ucy5qcyIsInNvdXJjZXNDb250ZW50IjpbIlwidXNlIHN0cmljdFwiO1xuXG5jb25zdCB7IEdFVCwgUE9TVCB9ID0gcmVxdWlyZShcIi4uLy4uL2NvbnN0YW50cy9yZXF1ZXN0VHlwZXNcIik7XG5cbmNvbnN0IGFjdGlvbnMgPSB7XG4gIGxpc3RPcGVyYXRvcnM6IHtcbiAgICBtZXRob2Q6IEdFVCxcbiAgICBlbmRwb2ludDogXCIvc2V0dGluZ3NfYnlfY2hhbm5lbF9jdXN0b21fdHlwZS97Y3VzdG9tX3R5cGV9L29wZXJhdG9yc1wiLFxuICB9LFxufTtcblxubW9kdWxlLmV4cG9ydHMgPSBhY3Rpb25zO1xuIl19
