@@ -17,8 +17,9 @@ const actions = {
   },
   unbanUsers: {
     method: DELETE,
-    endpoint:
-      "/settings_by_channel_custom_type/{custom_type}/ban?user_ids={user_ids}",
+    // endpoint:
+    //   "/settings_by_channel_custom_type/{custom_type}/ban?user_ids={user_ids}",
+    endpoint: "/settings_by_channel_custom_type/{custom_type}/ban",
   },
 };
 
