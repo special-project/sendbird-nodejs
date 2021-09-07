@@ -1,6 +1,6 @@
 "use strict";
 
-const { GET, POST } = require("../../constants/requestTypes");
+const { GET, POST, DELETE } = require("../../constants/requestTypes");
 
 const actions = {
   listOperators: {
