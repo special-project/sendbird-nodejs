@@ -13,7 +13,8 @@ const actions = {
   },
   listBannedUsers: {
     method: GET,
-    endpoint: "/settings_by_channel_custom_type/{custom_type}/ban",
+    endpoint:
+      "/settings_by_channel_custom_type/{custom_type}/ban?limit={limit}",
   },
   unbanUsers: {
     method: DELETE,
@@ -26,7 +27,8 @@ const actions = {
   },
   listMutedUsers: {
     method: GET,
-    endpoint: "/settings_by_channel_custom_type/{custom_type}/mute",
+    endpoint:
+      "/settings_by_channel_custom_type/{custom_type}/mute?limit={limit}",
   },
   unmuteUsers: {
     method: DELETE,
