@@ -1,6 +1,6 @@
 {
   "name": "@special-project/sendbird-nodejs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Thin wrapper around SendBird Server REST API v3",
   "main": "dist/index.js",
   "files": [
