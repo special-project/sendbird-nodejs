@@ -1,41 +1,40 @@
-'use strict';
+"use strict";
 
-const {
-    GET,
-    POST,
-    PUT,
-    DELETE
-} = require('../../constants/requestTypes');
+const { GET, POST, PUT, DELETE } = require("../../constants/requestTypes");
 
 const actions = {
-    'send': {
-        method: POST,
-        endpoint: '/'
-    },
-    'list': {
-        method: GET,
-        endpoint: '/'
-    },
-    'delete': {
-        method: DELETE,
-        endpoint: '/{message_id}'
-    },
-    'view': {
-        method: GET,
-        endpoint: '/{message_id}'
-    },
-    'markAsRead': {
-        method: PUT,
-        endpoint: '/mark_as_read'
-    },
-    'count': {
-        method: GET,
-        endpoint: '/total_count'
-    },
-    'unreadCount': {
-        method: GET,
-        endpoint: '/unread_count'
-    }
+  send: {
+    method: POST,
+    endpoint: "/",
+  },
+  list: {
+    method: GET,
+    endpoint: "/",
+  },
+  delete: {
+    method: DELETE,
+    endpoint: "/{message_id}",
+  },
+  view: {
+    method: GET,
+    endpoint: "/{message_id}",
+  },
+  markAsRead: {
+    method: PUT,
+    endpoint: "/mark_as_read",
+  },
+  count: {
+    method: GET,
+    endpoint: "/total_count",
+  },
+  unreadCount: {
+    method: GET,
+    endpoint: "/unread_count",
+  },
+  listReactions: {
+    method: GET,
+    endpoint: "/{message_id}/reactions?list_users={list_users}",
+  },
 };
 
 module.exports = actions;
